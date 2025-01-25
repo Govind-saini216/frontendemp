@@ -3,7 +3,7 @@ import EmployeeTable from './EmployeeTable.jsx';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { getallEmployee, CreateEmployee, UpdateEmployee, deletEmployeebyid } from './api.js';
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 
 export default function EmployeeMenagmentApp() {
 
